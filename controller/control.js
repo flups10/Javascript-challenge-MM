@@ -9,7 +9,7 @@ const landing = (req, res) => {
 const home = (req, res) => {
     
     if (req.method == "GET"){
-        Feed.find().sort({createdAt: -1})
+        Feed.find().sort({updatedAt: -1})
             .then(result => {
                 res.render('index', {result})
             })
