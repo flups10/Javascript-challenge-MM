@@ -1,0 +1,43 @@
+/* Global */
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(115, 115, 233);
+    text-align: center;
+}
+
+h1 {
+    padding: 30px;
+    color: #fafafa;
+}
+
+h2{
+    padding-top: 25px;
+}
+
+h4 {
+    color: rgb(255, 186, 37);
+}
+/* index */
+
+.message{
+    border-bottom: solid 2px gray;
+    margin-top: 30px;
+
+}
+
+.message > h5{
+    text-transform: capitalize;
+}
+
+
+/* form */
+
+div > label {
+    padding-top: 15px;
+    font-weight: 600;
+    font-size: 1.2em;
+}

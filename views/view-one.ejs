@@ -1,0 +1,16 @@
+<%- include('head.ejs')%>
+<%- include('header.ejs') %>
+
+<a href="/feed">Back</a>
+<h3><%= result.name %></h3>
+<p> <%= result.message %></p>
+<p><i><%= result.date %></i></p>
+<a href="/feed/edit/<%= result._id%>">
+    <button class="btn btn-info">Edit</button>
+</a>
+<a href="/delete/<%= result._id%>">
+    <button class="btn btn-danger">Delete</button>
+</a>
+
+
+<%- include('bottom.ejs')%>
